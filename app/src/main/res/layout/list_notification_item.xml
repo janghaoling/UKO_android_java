@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/linear_personal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/circle_image"
+            android:src="@drawable/ic_user_profile"
+            android:scaleType="centerInside"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/img_icon"
+            android:paddingLeft="15dp">
+
+            <TextView
+                android:id="@+id/txt_noti_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account"
+                style="@style/TextLabel"
+                android:textColor="#959191"
+                android:textSize="@dimen/text_12"/>
+
+            <TextView
+                android:id="@+id/txt_noti_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Congratulations John. Your account has been updated adflkajsdlkfj."
+                style="@style/TextLabel"
+                android:textColor="#707070"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="4dp"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

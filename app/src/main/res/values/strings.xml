@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">UKO</string>
+
+    <!-- OnBoard Screen-->
+    <string name="log_in">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="please_wait">Please wait</string>
+
+    <!-- Login Screen-->
+    <string name="co_living">Experience co-living</string>
+    <string name="login_uko">Log in to UKO</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password"><u>FORGOT PASSWORD?</u></string>
+    <string name="new_uko">New to UKO?</string>
+    <string name="explore"><u>EXPLORE</u></string>
+    <string name="invalid_password">Password length should be at least 6 characters</string>
+    <string name="invalid_email">Please enter email address</string>
+    <string name="invalid_conf_password">Please type the password again</string>
+
+    <!-- Change Password-->
+    <string name="change_password">Change Password</string>
+    <string name="security">Password &amp; Security</string>
+    <string name="enter_old_password">Enter your old password</string>
+    <string name="enter_new_password">Enter your new password</string>
+    <string name="confirm_new_password">Confirm your new password</string>
+    <string name="confirm">Confirm</string>
+    <string name="please_enter_old_password">Please enter old password</string>
+
+    <!-- Signup Screen-->
+    <string name="signup_uko">Sign up to UKO</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="complete_profile">COMPLETE YOUR PROFILE</string>
+    <string name="by_signing_up">By signing up you agree to our</string>
+    <string name="terms_conditions">Terms &amp; Conditions &amp; Privacy Policy.</string>
+    <string name="standard_operator">Standard operator charges may apply for SMS.</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="go_to_login"><u>LOGIN</u></string>
+    <string name="enquiry_button">Enquiry</string>
+
+    <!-- Complete Profile Screen-->
+    <string name="live_with_uko">Live With UKO</string>
+    <string name="love_get_contact">We\'d love to get in contact</string>
+    <string name="name">Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="country_region">Country of origin</string>
+    <string name="date_birth">Date of Birth</string>
+    <string name="employment">Employment</string>
+    <string name="facebook_id">Facebook Id(optional)</string>
+    <string name="education">Your Qualification(Optional)</string>
+    <string name="location">Location</string>
+    <string name="continue_">Continue</string>
+    <string name="invalid_value">Required Field</string>
+    <string name="select_location_id">Please select Location</string>
+    <string name="additional_comments">Additional Comments</string>
+
+    <!-- Signup Final Screen-->
+    <string name="how_long_stay">How long would you like to stay?</string>
+    <string name="when_you_move">When do you want to move in?</string>
+    <string name="how_hear_about_us">How did you hear about us?</string>
+    <string name="why_uko">Why UKO?</string>
+    <string name="signup">SIGNUP</string>
+    <string name="how_about_stay">How Long are you about to stay?</string>
+    <string name="you_have_been_successfully_registered">You have been successfully registered.</string>
+
+    <!-- Forgot password Screen-->
+    <string name="enter_email">Enter your email</string>
+    <string name="submit">Submit</string>
+    <string name="send">Send</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="sent_code_successfully">We have sent the code successfully! Please check your email.</string>
+    <string name="please_try_again">Sorry! Please try again.</string>
+
+    <!-- Explore Screen-->
+    <string name="experience_co_living_your_way">Experience co-living your way. UKO.</string>
+    <string name="our_locations">Our Locations</string>
+    <string name="our_community">Our Community</string>
+    <string name="our_spaces">Our Spaces</string>
+    <string name="slice_of_uko">A slice of UKO Life</string>
+    <string name="uko_podcast">UKO Podcast</string>
+    <string name="view_all">VIEW ALL</string>
+    <string name="on_saturdays">On Saturdays we get It OM with free yoga</string>
+    <string name="podcast_title">Cecelia Macaulay</string>
+    <string name="podcast_description">Cecilia is a designer, teacher, writer, permaculture guru and home and...</string>
+    <string name="now_open">Now Open</string>
+
+    <!-- Enquire Screen-->
+    <string name="enquire_stanmore">Stanmore, Living less ordinary.</string>
+    <string name="stanmore_spaces">Stanmore Spaces</string>
+    <string name="uko_flex">UKO FLEX</string>
+    <string name="near_by_location">Near By Locations</string>
+    <string name="sydney_address">34 Parramatta Road, Sydney</string>
+    <string name="cbd">CBD</string>
+    <string name="cbd_distance">4.5KM</string>
+    <string name="stanmore_station">Stanmore Station</string>
+    <string name="stanmore_distance">16 MINS WALK</string>
+    <string name="annadale_hotel">Annadale Hotel</string>
+    <string name="annadale_distance">100 M</string>
+    <string name="campdowner">Campdowner Commons</string>
+    <string name="campdowner_distance">700 M</string>
+    <string name="meet_alex">Meet Alex</string>
+    <string name="go_to_person">Your go to person for all things</string>
+    <string name="enquire">ENQUIRE</string>
+
+    <!-- Verification Screen-->
+    <string name="enter_token">Enter Token Code</string>
+    <string name="next">Next</string>
+
+    <!-- ThanksJoin Screen-->
+    <string name="thank_you_join">Thank you for joining us</string>
+    <string name="you_will_be_sent_an_email">You will be sent an email after your profile gets verified</string>
+    <string name="okay">Okay</string>
+
+    <!-- Profile not verification Screen-->
+    <string name="profile_not_verified">Profile not verified</string>
+    <string name="your_profile_not_verified">Your Profile has not been verified yet. We will notify you shortly.</string>
+
+    <!-- Launch Soon Screen-->
+    <string name="launch_soon">Launching Soon</string>
+    <string name="something_exciting">We are creating something exciting. \nStay Tuned</string>
+
+    <!-- Profile Screen-->
+    <string name="account_setting">ACCOUNT SETTING</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="notification">Notification</string>
+    <string name="logout">Logout</string>
+
+    <!-- Resident Home Screen-->
+    <string name="request">REQUEST</string>
+    <string name="my_concierge">MY CONCIERGE</string>
+    <string name="lease_agreement_accepted">YOUR LEASE AGREEMENT HAS BEEN ACCEPTED</string>
+    <string name="proceed_payment">Please proceed for the payment</string>
+    <string name="profile_verified">YOUR PROFILE HAS BEEN VERIFIED</string>
+    <string name="sign_lease_agreement">Please sign the lease agreement</string>
+    <string name="upload">Upload</string>
+    <string name="view">View</string>
+    <string name="download">Download</string>
+    <string name="please_accept_permission">Please Accept All the Permission!</string>
+    <string name="invalid_doc_file">Select proper document file</string>
+    <string name="no_notices_found">No Notices Found!!</string>
+
+    <!-- User Detail Screen-->
+    <string name="basic_details">Basic Details</string>
+    <string name="account">Account setting</string>
+    <string name="save">Save</string>
+    <string name="update_profile_successfully">Profile updated successfully!</string>
+    <string name="update_profile_image_successfully">Profile Image Updated Successfully!</string>
+
+    <!-- Bottom Events Fragment Screen-->
+    <string name="btn_going">Going</string>
+    <string name="btn_not_going">Not Going</string>
+    <string name="status_update_successfully">Status updated successfully!</string>
+
+    <!-- Requests Fragment Screen-->
+    <string name="requests">Requests</string>
+    <string name="open">OPEN</string>
+    <string name="in_progress">IN PROGRESS</string>
+    <string name="resolved">RESOLVED</string>
+    <string name="no_coming_data">No Coming Data</string>
+
+    <string name="something_wrong">Something went wrong</string>
+    <string name="update_password_successfully">Password Updated Successfully!</string>
+
+    <string name="community_url">https://uko.com.au/our-community/</string>
+    <string name="pod_cast_url">https://uko.com.au/uko-life/</string>
+
+</resources>

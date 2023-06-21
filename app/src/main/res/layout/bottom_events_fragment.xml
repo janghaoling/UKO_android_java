@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txt_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextLabel"
+                android:textSize="@dimen/text_18"/>
+
+            <TextView
+                android:id="@+id/txt_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextLabel"
+                android:textColor="#DB6873"
+                android:textSize="@dimen/text_14"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextLabel"
+            android:textSize="@dimen/text_18"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btn_going"
+            style="@style/ButtonSecondary"
+            android:text="@string/btn_going"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:textSize="@dimen/text_12"
+            android:backgroundTint="@color/btn_secondary_color"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btn_not_going"
+            style="@style/ButtonSecondary"
+            android:text="@string/btn_not_going"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:textSize="@dimen/text_12"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="@color/btn_secondary_color"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            app:cardBackgroundColor="#F4F0F0"
+            app:cardElevation="2dp"
+            app:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:id="@+id/linear_timing"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/img_timing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_access_time"/>
+
+                <TextView
+                    android:id="@+id/txt_timing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/TextLabel"
+                    android:textColor="#434242"
+                    android:layout_marginLeft="8dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            app:cardBackgroundColor="#F4F0F0"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="2dp"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:id="@+id/linear_mapping"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/img_mapping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_map_marker"/>
+
+                <TextView
+                    android:id="@+id/txt_mapping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/TextLabel"
+                    android:textColor="#434242"
+                    android:layout_marginLeft="8dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/txt_details_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextLabel"
+            android:text="DETAILS"
+            android:textSize="@dimen/text_14"
+            android:textColor="#707070"/>
+
+        <TextView
+            android:id="@+id/txt_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#434242"
+            android:textSize="@dimen/text_12"
+            android:layout_marginTop="7dp"
+            android:lineSpacingExtra="3dp"/>
+    </LinearLayout>
+</LinearLayout>

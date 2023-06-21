@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="@color/light_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/profile_avatar"
+                android:src="@drawable/ic_default_avatar"/>
+
+            <ProgressBar
+                android:id="@+id/avatar_progress"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                style="?android:attr/progressBarStyle"
+                android:visibility="gone"
+                android:indeterminate="true"
+                android:indeterminateTintMode="src_atop"
+                android:indeterminateTint="#F7F4F4"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txt_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextLabel"
+                android:textSize="@dimen/text_20"
+                android:textColor="#434242"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt_user_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextLabel"
+                android:textSize="@dimen/text_12"
+                android:textColor="#434242"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="@color/light_gray"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account_setting"
+            style="@style/TextLabel"
+            android:textColor="#707070"
+            android:textSize="@dimen/text_12"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:id="@+id/linear_personal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/img_personal"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/circle_image"
+                android:src="@drawable/ic_user_profile"
+                android:scaleType="centerInside"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/personal_information"
+                style="@style/TextLabel"
+                android:textColor="#434242"
+                android:textSize="@dimen/text_14"
+                android:layout_toRightOf="@id/img_personal"
+                android:paddingLeft="15dp"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/light_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"/>
+
+        <RelativeLayout
+            android:id="@+id/linear_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/img_notification"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/circle_image"
+                android:src="@drawable/ic_noti_profile"
+                android:scaleType="centerInside"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notification"
+                style="@style/TextLabel"
+                android:textColor="#434242"
+                android:textSize="@dimen/text_14"
+                android:layout_toRightOf="@id/img_notification"
+                android:paddingLeft="15dp"
+                android:layout_centerVertical="true"/>
+
+            <Switch
+                android:id="@+id/switch_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:checked="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/light_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"/>
+
+        <RelativeLayout
+            android:id="@+id/linear_change_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/img_password"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/circle_image"
+                android:src="@drawable/ic_password_profile"
+                android:scaleType="centerInside"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/change_password"
+                style="@style/TextLabel"
+                android:textColor="#434242"
+                android:textSize="@dimen/text_14"
+                android:layout_toRightOf="@id/img_password"
+                android:paddingLeft="15dp"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/light_gray"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"/>
+
+        <RelativeLayout
+            android:id="@+id/linear_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/img_logout"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/circle_image"
+                android:src="@drawable/ic_lock_profile"
+                android:scaleType="centerInside"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/logout"
+                style="@style/TextLabel"
+                android:textColor="#434242"
+                android:textSize="@dimen/text_14"
+                android:layout_toRightOf="@id/img_logout"
+                android:paddingLeft="15dp"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

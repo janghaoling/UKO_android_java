@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFCFC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/near_by_location"
+            style="@style/TextLabel"
+            android:gravity="center"
+            android:textSize="@dimen/text_20"
+            android:textColor="#454141"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sydney_address"
+            style="@style/TextLabel"
+            android:gravity="center"
+            android:textColor="#707070"
+            android:textSize="@dimen/text_14"
+            android:layout_marginTop="7dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <ImageView
+                android:id="@+id/img_hotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_apartment" />
+            <TextView
+                android:id="@+id/tv_hotel_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cbd"
+                style="@style/TextLabel"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tv_hotel_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cbd_distance"
+                style="@style/TextLabel"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:textColor="#707070"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.7dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="35dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <ImageView
+                android:id="@+id/img_train"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_train"/>
+            <TextView
+                android:id="@+id/tv_train_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stanmore_station"
+                style="@style/TextLabel"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tv_train_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stanmore_distance"
+                style="@style/TextLabel"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:textColor="#707070"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.7dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="35dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <ImageView
+                android:id="@+id/img_dining"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_dinner"/>
+            <TextView
+                android:id="@+id/tv_dining_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/annadale_hotel"
+                style="@style/TextLabel"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tv_dining_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/annadale_distance"
+                style="@style/TextLabel"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:textColor="#707070"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.7dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="35dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <ImageView
+                android:id="@+id/img_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_home"/>
+            <TextView
+                android:id="@+id/tv_home_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/campdowner"
+                style="@style/TextLabel"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tv_home_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/campdowner_distance"
+                style="@style/TextLabel"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:textColor="#707070"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:orientation="vertical"
+            android:background="@color/green">
+
+            <TextView
+                android:id="@+id/tv_manager_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                style="@style/TextLabel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_24"
+                android:gravity="center"
+                android:paddingTop="20dp"/>
+            <TextView
+                android:id="@+id/tv_manager_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                style="@style/TextLabel"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_manager"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:src="@drawable/ic_default_avatar"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

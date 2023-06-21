@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rel_top_bar"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="#D3F1F5"
+    android:padding="13dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR PROFILE HAS BEEN VERIFIED"
+            android:textColor="#0D6876"
+            style="@style/TextLabel"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0D6876"
+            android:text="Please sign the lease agreement"
+            style="@style/TextLabel"
+            android:textSize="12sp"
+            android:layout_marginTop="3dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_angle_right"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

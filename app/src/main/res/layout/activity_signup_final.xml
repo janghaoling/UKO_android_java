@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activity.SignupFinal">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_header"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/live_with_uko"
+                android:textColor="#434242"
+                android:textSize="@dimen/text_16" />
+
+            <TextView
+                style="@style/TextLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:paddingLeft="80dp"
+                android:paddingRight="80dp"
+                android:text="@string/love_get_contact"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_32" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_stay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ed_how_long_stay"
+                    style="@style/TextLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="@string/how_long_stay"
+                    android:imeOptions="actionNext"
+                    android:inputType="textWebEmailAddress"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_move"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ed_when_move"
+                    style="@style/TextLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="@string/when_you_move"
+                    android:imeOptions="actionNext"
+                    android:inputType="textWebEmailAddress"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_hear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ed_how_hear"
+                    style="@style/TextLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="@string/how_hear_about_us"
+                    android:imeOptions="actionNext"
+                    android:inputType="textWebEmailAddress"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_why"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ed_why_uko"
+                    style="@style/TextLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="@string/why_uko"
+                    android:imeOptions="actionDone"
+                    android:inputType="textWebEmailAddress"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/btn_singup"
+                style="@style/ButtonPrimary"
+                android:text="@string/signup" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
